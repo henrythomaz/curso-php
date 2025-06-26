@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários</title>
+</head>
+<body>
+    <form action="index.php" method="get">
+        Nome: <input type="text" name="nome" id=""><br>
+        Ano de Nascimento: <input type="number" name="ano" id=""><br>
+        <fieldset><legend>Sexo</legend>
+            <input type="radio" name="sexo" id="" value="homem">
+            <label for="masc">Masculino</label><br>
+            <input type="radio" name="sexo" id="" value="mulher">
+            <label for="fem">Feminino</label><br>
+        </fieldset><br>
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>
